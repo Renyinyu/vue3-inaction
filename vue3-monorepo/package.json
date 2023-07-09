@@ -1,0 +1,22 @@
+{
+  "name": "vue3-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:component": "pnpm --filter components dev",
+    "dev:business": "pnpm --filter business dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.2"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  }
+}
