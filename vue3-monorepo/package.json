@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev:component": "pnpm --filter components dev",
-    "dev:business": "pnpm --filter business dev"
+    "dev:business": "pnpm --filter business dev",
+    "build:component": "pnpm --filter components build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.4.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
     "typescript": "^5.1.6",

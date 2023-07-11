@@ -2,9 +2,17 @@
   "name": "@my/components",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/my-components.umd.js",
+  "module": "dist/my-components.mjs",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/my-components.mjs",
+      "require": "./dist/my-components.umd.js"
+    }
   },
   "keywords": [],
   "author": "",
